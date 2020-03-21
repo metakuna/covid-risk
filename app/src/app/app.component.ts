@@ -15,7 +15,9 @@ export class AppComponent implements OnInit {
 
   constructor(private formBuilder: FormBuilder) {
     this.dataForm = formBuilder.group({
-      age: ''
+      age: '',
+      sex: '',
+      conditions: '',
     });
   }
 

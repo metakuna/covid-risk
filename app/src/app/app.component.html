@@ -4,6 +4,15 @@
     <label for="age">I am </label>
     <input type="text" id="age" formControlName="age" (blur)="submit()">
     <label for="age"> years old</label>
+    <br>
+    <input list="sex">
+    <datalist id="sex" formControlName="age">
+      <option value="Male">
+      <option value="Female">
+      <option value="Other/Not specified">
+    </datalist>
+    <input type="checkbox" id="diabetes">
+    <label for="diabetes">Diabetes</label>
     <!-- <button type="submit">Submit</button> -->
   </form>
   <h2>If you are diagnosed with COVID-19</h2>
