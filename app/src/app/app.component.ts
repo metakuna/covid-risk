@@ -24,7 +24,7 @@ export class AppComponent implements OnInit {
   }
 
   submit() {
-    console.log('clicked submit');
+    console.log('clicked submit'); //
     this.hospRisk = this.dataForm.value.age;
   }
 }
